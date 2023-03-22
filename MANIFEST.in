@@ -1,0 +1,11 @@
+include dash_bibtex/dash_bibtex.min.js
+include dash_bibtex/dash_bibtex.min.js.map
+include dash_bibtex/async-*.js
+include dash_bibtex/async-*.js.map
+include dash_bibtex/*-shared.js
+include dash_bibtex/*-shared.js.map
+include dash_bibtex/metadata.json
+include dash_bibtex/package-info.json
+include README.md
+include LICENSE
+include package.json

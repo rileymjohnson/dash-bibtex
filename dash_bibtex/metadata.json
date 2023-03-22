@@ -1,0 +1,52 @@
+{
+  "src/lib/components/DashBibtex.react.js": {
+    "description": "DashBibtex is a component for rendering BibTeX.\r\nIt accepts the BibTeX string with the\r\nproperty `bibtex`. It selects the language\r\nof the citation with the `language` property.\r\nThe available languages are 'en-US', 'es-ES',\r\n'de-DE', 'fr-FR', and 'nl-NL'. The format of\r\nthe citation is selected using the `citation_style`\r\nproperty. The available citation styles are 'apa',\r\n'vancouver', 'harvard1', and 'bibtex'. If 'bibtex'\r\nis selected, raw BibTeX will be rendered.",
+    "displayName": "DashBibtex",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "bibtex": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "The BibTeX to be rendered to a citation."
+      },
+      "citation_style": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The style of the citation to be rendered.",
+        "defaultValue": {
+          "value": "'apa'",
+          "computed": false
+        }
+      },
+      "language": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The language of the citation to be rendered.",
+        "defaultValue": {
+          "value": "'en-US'",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\r\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
